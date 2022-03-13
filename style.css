@@ -70,8 +70,8 @@ body {
   position: fixed;
   bottom: 0px;
   left: 30px;
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 680px;
+  /*min-width: 600px;*/
 }
 
 .acorn-1 {
