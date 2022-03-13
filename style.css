@@ -114,22 +114,37 @@ body {
 .projects-container {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
   align-items: center;
   margin: 100px 0px;
 }
 
-.indie-hackers,
 .pod-reacher {
   min-width: 450px;
   max-width: 650px;
   margin: 20px 0px;
+  position: relative;
+  right: 120px;
+  top: 70px;
 }
+
+.indie-hackers {
+  min-width: 450px;
+  max-width: 650px;
+  margin: 20px 0px;
+  POSITION: relative;
+  left: -10px;
+  top: -70px;
+  min-width: 570px;
+}
+
 
 .bestiary {
   min-width: 450px;
   max-width: 450px;
   margin: 20px 0px;
+  position: relative;
+  top: 330px;
+  left: -200px;
 }
 
 .small-logo {
