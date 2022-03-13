@@ -66,11 +66,12 @@ body {
   margin-bottom: 30px;
 }
 
-.squirrell {
+.squirrel {
   position: fixed;
   bottom: 0px;
   left: 30px;
-  max-width: 750px;
+  max-width: 1000px;
+  min-width: 600px;
 }
 
 .acorn-1 {
@@ -321,6 +322,7 @@ body {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+  width: 921px;
 }
 
 .bestiary-2 {
