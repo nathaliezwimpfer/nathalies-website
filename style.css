@@ -119,33 +119,58 @@ body {
   margin: 100px 0px;
 }
 
-.pod-reacher {
-  min-width: 450px;
-  max-width: 650px;
-  margin: 20px 0px;
-  position: relative;
-  right: 120px;
-  top: 70px;
-}
-
 .indie-hackers {
   min-width: 450px;
   max-width: 650px;
   margin: 20px 0px;
   POSITION: relative;
-  left: -10px;
-  top: -70px;
+  /* left: -10px;
+  top: -70px; */
   min-width: 570px;
 }
-
 
 .bestiary {
   min-width: 450px;
   max-width: 450px;
   margin: 20px 0px;
   position: relative;
-  top: 330px;
-  left: -200px;
+  /* top: 330px;
+  left: -200px; */
+}
+
+.pod-reacher {
+  min-width: 450px;
+  max-width: 650px;
+  margin: 20px 0px;
+  position: relative;
+  /* right: 120px;
+  top: 70px; */
+}
+
+.mini-apps {
+  min-width: 450px;
+  max-width: 650px;
+  margin: 20px 0px;
+  POSITION: relative;
+  /* left: -10px;
+  top: -70px; */
+}
+
+.table {
+  min-width: 450px;
+  margin: 20px 0px;
+  position: relative;
+  /* top: 330px;
+  left: -200px; */
+}
+
+.todo {
+  min-width: 450px;
+  max-width: 650px;
+  margin: 20px 0px;
+  position: relative;
+  /* right: 120px;
+  top: 70px; */
 }
 
 .small-logo {
@@ -166,6 +191,11 @@ body {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+}
+
+#opossum-image {
+  max-width: 330px;
+  margin-left: 70px;
 }
 
 .middle {
@@ -191,7 +221,8 @@ body {
   background-color: white;
   color: white;
   padding: 16px 12px;
-  min-width: 150px;
+  min-width: 210px;
+  height: 90px;
   margin-top: 140%;
   border: 1px solid black;
   border-radius: 10px;
@@ -202,16 +233,20 @@ body {
   color: white;
   padding: 16px 12px;
   min-width: 150px;
+  height: 90px;
   margin-top: 140%;
   border: 1px solid black;
   border-radius: 10px;
+  position: relative;
+  top: 80px;
 }
 
 .text3 {
   background-color: white;
   color: white;
   padding: 16px 12px;
-  min-width: 150px;
+  min-width: 210px;
+  height: 90px;
   margin-top: 140%;
   border: 1px solid black;
   border-radius: 10px;
